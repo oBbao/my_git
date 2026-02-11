@@ -16,5 +16,6 @@ public class App
         System.out.println("my name is bys04");
         System.out.println("my name is bys05_main");
         System.out.println("push code");
+        System.out.println("pull code");
     }
 }
