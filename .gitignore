@@ -1,0 +1,65 @@
+# ===================== Maven 核心产物 =====================
+# 编译生成的 class 文件目录
+target/
+# Maven 打包生成的临时文件
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Maven wrapper 临时文件（如需提交 wrapper 可注释）
+.mvn/wrapper/maven-wrapper.jar
+
+# ===================== IDE 配置文件 =====================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+# VS Code
+.vscode/
+*.code-workspace
+
+# ===================== 系统/缓存文件 =====================
+# Mac 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows 系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# 日志文件
+*.log
+logs/
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+# 环境变量配置（包含敏感信息，如数据库密码）
+*.properties
+!pom.properties
+!src/main/resources/*.properties  # 保留源码里的配置模板（无敏感信息）
+# 压缩包
+*.zip
+*.tar.gz
+*.rar
+
+# ===================== 其他通用忽略 =====================
+# Git 本身的临时文件
+.gitignore.swp
+# 测试报告
+surefire-reports/
+failsafe-reports/
+# 本地仓库缓存（无需提交）
+.m2/repository/
